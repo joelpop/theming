@@ -1,0 +1,1 @@
+import{y as a,$ as e}from"./indexhtml-789f4551.js";const t={tagName:"vaadin-avatar",displayName:"Avatar",elements:[{selector:"vaadin-avatar",displayName:"Host",properties:[{propertyName:"--vaadin-avatar-size",displayName:"Size",editorType:a.range,presets:e.lumoSize,icon:"square"}]}]};export{t as default};

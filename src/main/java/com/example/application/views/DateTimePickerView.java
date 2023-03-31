@@ -1,6 +1,5 @@
 package com.example.application.views;
 
-import com.vaadin.flow.component.datepicker.DatePicker;
 import com.vaadin.flow.component.datetimepicker.DateTimePicker;
 import com.vaadin.flow.component.datetimepicker.DateTimePickerVariant;
 import com.vaadin.flow.router.PageTitle;
