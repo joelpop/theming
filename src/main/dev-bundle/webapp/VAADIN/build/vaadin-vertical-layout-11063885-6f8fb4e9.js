@@ -1,1 +1,0 @@
-import{V as a}from"./indexhtml-a40d8f78.js";const o={tagName:"vaadin-vertical-layout",displayName:"VerticalLayout",elements:[{selector:"vaadin-vertical-layout",displayName:"Layout",properties:[a.backgroundColor,a.borderColor,a.borderWidth,a.borderRadius,a.padding,a.gap]}]};export{o as default};

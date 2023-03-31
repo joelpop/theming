@@ -8,24 +8,6 @@ import com.vaadin.flow.component.shared.HasThemeVariant;
 import com.vaadin.flow.component.shared.ThemeVariant;
 import com.vaadin.flow.theme.lumo.LumoUtility;
 
-/**
- *
- * <pre>
- * +-content(HorizontalLayout)-------------------------------------------+
- * | +-propertyBlock(VerticalLayout)----+ +-componentBlock(FlexLayout)-+ |
- * | | +-editStateBlock(FlexLayout)---+ | |                            | |
- * | | |                              | | |                            | |
- * | | +------------------------------+ | |                            | |
- * | | +-optionBlock(VerticalLayout)--+ | |                            | |
- * | | |                              | | |                            | |
- * | | +------------------------------+ | |                            | |
- * | | +-variantBlock(VerticalLayout)-+ | |                            | |
- * | | |                              | | |                            | |
- * | | +------------------------------+ | |                            | |
- * | +----------------------------------+ +----------------------------+ |
- * +---------------------------------------------------------------------+
- * </pre>
- */
 public class ViewThemeVariantComponent<C extends Component & HasThemeVariant<V>, V extends ThemeVariant> extends ViewComponent<C> {
 
     public ViewThemeVariantComponent() {
@@ -35,7 +17,7 @@ public class ViewThemeVariantComponent<C extends Component & HasThemeVariant<V>,
     public void setComponent(C component, V[] themeVariants) {
         setComponent(component);
 
-        addPropertyComponent(createVariantsBlock(component, themeVariants));
+        addOptionComponent(createVariantsBlock(component, themeVariants));
     }
 
     @SuppressWarnings("unchecked")
